@@ -13,4 +13,7 @@ hero:
     - theme: alt
       text: GDD
       link: /gdd/
+  image:
+      src: /img/logo-full.png
+      alt: Return To Roots Logo
 ---
