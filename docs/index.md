@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Return To Roots"
-  text: "The official wiki for Return To Roots"
-  tagline: My great project tagline
+  text: "The official wiki"
+  tagline: The place for lore, mechanics, design bibles, and more.
   actions:
     - theme: brand
       text: Wiki
