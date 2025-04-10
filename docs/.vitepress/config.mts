@@ -2,6 +2,7 @@ import { DefaultTheme, defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/home/',
   title: "Return To Roots Wiki",
   description: "The official wiki for Return To Roots",
   themeConfig: {
