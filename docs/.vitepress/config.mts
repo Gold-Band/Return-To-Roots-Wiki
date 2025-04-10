@@ -30,6 +30,12 @@ function wikiSidebar(): DefaultTheme.SidebarItem[] {
         {text: 'Introduction', link: '/'},
       ]
     },
+    {
+      text: 'Lore',
+      items: [
+        {text: 'Backstory', link: 'backstory'},
+      ]
+    },
   ]
 }
 
