@@ -38,6 +38,12 @@ function wikiSidebar(): DefaultTheme.SidebarItem[] {
         {text: 'Potheads', link: '/wiki/potheads'}
       ]
     },
+    {
+      text: 'Art Bible',
+      items: [
+        {text: 'Colour Palettes', link: '/wiki/colour-palettes'},
+      ]
+    },
   ]
 }
 
