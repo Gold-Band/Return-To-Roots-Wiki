@@ -26,14 +26,12 @@ function wikiSidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'Home',
-      collapsed: false,
       items: [
         {text: 'Introduction', link: '/wiki/'},
       ]
     },
     {
       text: 'Lore',
-      collapsed: false,
       items: [
         {text: 'Backstory', link: '/wiki/backstory'},
         {text: 'Potheads', link: '/wiki/potheads'}
