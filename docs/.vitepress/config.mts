@@ -12,8 +12,8 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/wiki/': { base: '/wiki/', items: wikiSidebar() },
-      '/gdd/': { base: '/gdd/', items: gddSidebar() }
+      '/wiki/': { base: '', items: wikiSidebar() },
+      '/gdd/': { base: '', items: gddSidebar() }
     },
 
     socialLinks: [
@@ -26,14 +26,17 @@ function wikiSidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: 'Home',
+      collapsed: false,
       items: [
-        {text: 'Introduction', link: '/'},
+        {text: 'Introduction', link: '/wiki/'},
       ]
     },
     {
       text: 'Lore',
+      collapsed: false,
       items: [
-        {text: 'Backstory', link: 'backstory'},
+        {text: 'Backstory', link: '/wiki/backstory'},
+        {text: 'Potheads', link: '/wiki/potheads'}
       ]
     },
   ]
@@ -44,7 +47,7 @@ function gddSidebar(): DefaultTheme.SidebarItem[] {
     {
       text: 'Game Design Document',
       items: [
-        {text: 'Introduction', link: '/'},
+        {text: 'Introduction', link: '/gdd/'},
       ]
     }
   ]
