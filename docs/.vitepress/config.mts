@@ -32,6 +32,12 @@ function wikiSidebar(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
+      text: 'Enemies',
+      items: [
+        {text: 'Meekler', link: '/wiki/enemies/meekler'},
+      ]
+    },
+    {
       text: 'Lore',
       items: [
         {text: 'Backstory', link: '/wiki/backstory'},
